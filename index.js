@@ -1,4 +1,4 @@
-var count = 100;
+var count = 0;
 
 Document.getElementById("before-prefix-increment").innerHTML = count;
 Document.getElementById("prefix-increment").innerHTML = ++count;
