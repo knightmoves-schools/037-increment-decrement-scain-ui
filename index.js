@@ -12,4 +12,4 @@ Document.getElementById("prefix-decrement").innerHTML = --count;
 Document.getElementById("before-postfix-decrement").innerHTML = count;
 Document.getElementById("postfix-decrement").innerHTML = count--;
 
-Document.getElementById("result").innerHTML = counter;
+Document.getElementById("result").innerHTML = count;
