@@ -1,15 +1,12 @@
 var counter = 100;
 
-Document.getElementById("beforeprefixIncrement").innerHTML = counter;
-Document.getElementById("prefixIncrement").innerHTML = ++counter;
+var prefixIncrement = ++counter;
 
-Document.getElementById("beforepostfixIncrement").innerHTML = counter;
-Document.getElementById("postfixIncrement").innerHTML = counter++;
+var postfixIncrement = counter++;
 
-Document.getElementById("beforeprefixDecrement").innerHTML = counter;
-Document.getElementById("prefixDecrement").innerHTML = --counter;
+var prefixDecrement = --counter;
 
-Document.getElementById("beforepostfixDecrement").innerHTML = counter;
-Document.getElementById("postfixDecrement").innerHTML = counter--;
+var postfixDecrement = counter--;
+
 
 Document.getElementById("result").innerHTML = counter;
