@@ -8,4 +8,4 @@ var prefixDecrement = --counter;
 
 var postfixDecrement = counter--;
 
-Document.getElementById("counter").innerHTML = result;
+Document.getElementById("result").innerHTML = 100;
